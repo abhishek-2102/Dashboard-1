@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	font-family: cursive;
+}
+
+.form-control::placeholder {
+	
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	height: 60px;
+}
+.fa{
+	color:#C5C3C6;
+	margin-left: auto;
+	margin-right: auto;
+}
+.input-group-text{
+	width:50px;
+	border-radius: 0;
+	border:0;
+	background-color: #EFEFEF;
+ }
+.form-control{
+	border:0;
+    border-radius: 0;
+    background-color: #EFEFEF;
+    color:#000;
+    font-size: 14px;
+}
+
+.form-control:focus{
+	border:0;
+    background-color: #F2F2F2;
+    color:#000;
+	box-shadow: none;
+}
+
+.btn-primary{
+	background-color: #1985A1;
+	border-color:#1985A1;
+	border-radius:0;
+}
+.btn-primary:focus{
+	background-color: #1985A1;
+	border-color:#1985A1;
+	border-radius:0;
+}
+
+.btn-primary:hover{
+	background-color: #156D84;
+	border-color:#156D84;
+	border-radius:0;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: none;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #1985A1;
+  border-color: #1985A1;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  	background-color: #1985A1;
+	border-color:#1985A1;
+	border-radius:0;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.login-container{
+	margin-top:10%;
+}
+
+.custom-footer{
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: serif;
+    font-size: 15px;
+}
